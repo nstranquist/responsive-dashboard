@@ -1,0 +1,66 @@
+/* ... we want 3 sections, with most space for middle nav list, padding for top. squeeze bot */
+
+/* Layout */
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between; */
+    color: lightgray;
+}
+/* Section styles */
+.sidenav-header {
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.sidenav-nav {
+    border: 1px solid blue;
+}
+.bot-section {
+    padding: 1rem 2rem;
+    border: 1px solid green;
+}
+/* Header styles */
+.sidenav-header a {
+
+}
+.profile-img {
+    border-radius: 50%;
+}
+.h-acct-name {
+    margin-top: 1rem;
+}
+/* Sidenav Nav styles */
+.sidenav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.sidenav-list li {
+    padding: 1rem;
+    margin: 0;
+    cursor: pointer;
+}
+.sidenav-list li:hover {
+    background-color: gray;
+    transition: .5s ease;
+}
+.sidenav-list li a:active, .sidenav-list li a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
+.sidenav-list li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
