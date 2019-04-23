@@ -17,19 +17,18 @@
 .sidenav-nav {
     border: 1px solid blue;
 }
-.bot-section {
+.sidenav-bot-options {
     padding: 1rem 2rem;
-    border: 1px solid green;
+    border-top: 1px solid green;
+    height: auto;
 }
 /* Header styles */
-.sidenav-header a {
-
-}
 .profile-img {
     border-radius: 50%;
 }
 .h-acct-name {
     margin-top: 1rem;
+    margin-bottom: .2rem;
 }
 /* Sidenav Nav styles */
 .sidenav-list {
@@ -59,3 +58,22 @@
     padding-bottom: 1rem;
     width: 100%;
 }
+/* Sidenav Options styles */
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+ }
+ .btn {
+    text-align: center;
+    padding: .75rem;
+    color: whitesmoke;
+    background-color: orangered;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    font-size: 1.1rem;
+ }
+ .btn:hover {
+    background: rgba(255, 68, 0, 0.725);
+    transition: .3s ease;
+ }
