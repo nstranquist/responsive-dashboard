@@ -3,6 +3,7 @@
 @import "./css/components/footer.css";
 @import "./css/colors.css";
 @import "./css/layout.css";
+@import "./css/global-styles.css";
 @import "./css/reset.css";
 
 .app-container {

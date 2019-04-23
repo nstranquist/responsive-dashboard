@@ -50,11 +50,6 @@
     background-color: gray;
     transition: .5s ease;
 }
-.sidenav-list li a:active, .sidenav-list li a:focus {
-    outline: 0;
-    border: none;
-    -moz-outline-style: none;
-}
 .sidenav-list li a {
     color: white;
     text-decoration: none;

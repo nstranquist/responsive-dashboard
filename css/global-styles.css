@@ -1,0 +1,5 @@
+a:active, a:focus, a:visited {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
