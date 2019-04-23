@@ -1,0 +1,15 @@
+
+/* Content Grid style */
+.content-grid {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(48%,1fr));
+    /*grid-template-rows: auto;*/
+    grid-auto-rows: 25vh;
+    background-color: lightcoral;
+    padding: 1rem;
+}
+.grid-item {
+    background-color: silver;
+    text-align: center;
+}

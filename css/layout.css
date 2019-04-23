@@ -1,6 +1,6 @@
 /* Primary Sections */
 .sidenav {
-    position: absolute;
+    position: fixed;
     left: 0;
     width: 20%;
     height: 100%;
@@ -22,13 +22,7 @@
     padding: 1rem;
  }
  .content-grid {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    background-color: lightcoral;
     flex: 1;
-    padding: 1rem;
  }
  .footer {
     background-color: lightpink;
