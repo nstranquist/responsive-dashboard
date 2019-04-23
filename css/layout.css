@@ -1,27 +1,37 @@
 /* Primary Sections */
 .sidenav {
-    position: fixed;
-    left: 0;
-    width: 20%;
-    height: 100%;
-    background-color: rgb(41, 41, 107);
- }
- .content-layout {
-    position: absolute;
-    left: 20%;
-    width: 80%;
-    height: 100vh;
-    background-color: silver;
-    display: flex;
-    flex-direction: column;
- }
- /* Content Sections */
- .header {
-    background-color: lightblue;
-    text-align: center;
-    padding: 1rem;
- }
- .content-grid {
-    flex: 1;
- }
- .footer {}
+   position: fixed;
+   left: 0;
+   width: 20%;
+   height: 100%;
+   background-color: rgb(41, 41, 107);
+}
+.content-layout {
+   position: absolute;
+   left: 20%;
+   width: 80%;
+   height: 100vh;
+   background-color: silver;
+   display: flex;
+   flex-direction: column;
+}
+/* Content Sections */
+.header {
+   background-color: lightblue;
+   text-align: center;
+   padding: 1rem;
+}
+.content-grid {
+   flex: 1;
+}
+.footer {}
+
+@media only screen and (max-width: 860px) {
+   .sidenav {
+      display: none;
+   }
+   .content-layout {
+      position: static;
+      width: 100%;
+   }
+}

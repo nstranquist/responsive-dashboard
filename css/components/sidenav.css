@@ -9,17 +9,17 @@
 }
 /* Section styles */
 .sidenav-header {
-    border: 1px solid red;
+    border-bottom: 1px solid gray;
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 .sidenav-nav {
-    border: 1px solid blue;
+    border-top: 1px solid gray;
 }
 .sidenav-bot-options {
     padding: 1rem 2rem;
-    border-top: 1px solid green;
+    /*border-top: 1px solid green;*/
     height: auto;
 }
 /* Header styles */
@@ -37,8 +37,8 @@
     justify-content: center;
     list-style-type: none;
     font-size: 1.3rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    /*margin-top: 3rem;
+    margin-bottom: 3rem;*/
 }
 .sidenav-list li {
     padding: 1rem;
@@ -77,3 +77,12 @@
     background: rgba(255, 68, 0, 0.725);
     transition: .3s ease;
  }
+@media only screen and (max-width: 1262px) {
+    .options-container {
+        flex-direction: column;
+    }
+    .btn{
+        margin: .5rem;
+        padding: .65rem;
+    }
+}
