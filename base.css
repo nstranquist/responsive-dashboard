@@ -12,3 +12,6 @@
    height: 100vh;
    background-color: silver;
 }
+.active {
+   border-bottom: 1px solid red;
+}
