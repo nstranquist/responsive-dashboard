@@ -24,7 +24,4 @@
  .content-grid {
     flex: 1;
  }
- .footer {
-    background-color: lightpink;
-    padding: 1rem;
- }
+ .footer {}
