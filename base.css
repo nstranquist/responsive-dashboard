@@ -45,38 +45,3 @@
    background-color: lightpink;
    padding: 1rem;
 }
-
-
-
-
-
-/* Disabled Until Further Notice */
-.g1rid-wrapper {
-   display: grid;
-   grid-gap: 0;
-   grid-template-columns: 20% 80%;
-   grid-auto-rows: auto;
-}
-/* Main Sections */
-.h1eader {  /* anchored to top, span firt row, full column span */
-   background-color: lightblue;
-   grid-column: 1 / 2;
-   grid-row: 1 / 2;
-   min-height: 100px;
-}
-.s1idenav {   /* anchored to left side first column, full span page */
-   background-color: lightgray;
-   grid-column: 1 / 2;
-   grid-row: 2 / -1;
-
-}
-.m1ain-content {  /* takes up all remaining space */
-   background-color: lightgreen;
-   grid-column: 2 / -1;
-   grid-row: 2 / -2;
-}
-.f1ooter {  /* anchored to bottom row, span all columns */
-   background-color: lightpink;
-   grid-column: 1 / -1;
-   grid-row: 3 / 4;
-}
