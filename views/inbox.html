@@ -7,6 +7,8 @@
         <meta name="dashboard try" description="trying to get this dashboard man!"/>
         <title>dashtry - inbox</title>
         <link rel="stylesheet" type="text/css" href="../base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/pages/inbox-base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/pages/inbox-grid.css" />
     </head>
     <body>
         <div class="app-container">
@@ -44,7 +46,256 @@
                 </header>
                 <main class="content-grid">
                     <!-- Inbox view here -->
-                    <h1>Inbox</h1>
+                    <div class="inbox-container">
+                        <div class="inbox-contacts">
+                            <div class="inbox-message"> <!-- Can make this into <ul> later -->
+                                <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                <div class="inbox-message-content">
+                                    <div class="inbox-sender">
+                                        Nico
+                                    </div>
+                                    <div class="inbox-message-txt">
+                                        Hello, this is a message. More text here. Sweet!
+                                    </div>
+                                </div>
+                                <div class="inbox-timestamp">
+                                    11:22AM
+                                </div>
+                            </div>
+                            <div class="inbox-message inbox-message-active">
+                                <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                <div class="inbox-message-content">
+                                    <div class="inbox-sender">
+                                        Dad
+                                    </div>
+                                    <div class="inbox-message-txt">
+                                        Hey Nico, I'm doing well. How are you?
+                                    </div>
+                                </div>
+                                <div class="inbox-timestamp">
+                                    12:13PM
+                                </div>
+                            </div>
+                            <div class="inbox-message">
+                                <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                <div class="inbox-message-content">
+                                    <div class="inbox-sender">
+                                        Eric
+                                    </div>
+                                    <div class="inbox-message-txt">
+                                        BRO check out this new game it's called Minecraft
+                                    </div>
+                                </div>
+                                <div class="inbox-timestamp">
+                                    11:22AM
+                                </div>
+                            </div>
+                            <div class="inbox-message">
+                                <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                <div class="inbox-message-content">
+                                    <div class="inbox-sender">
+                                        Mr. Venue Owner
+                                    </div>
+                                    <div class="inbox-message-txt">
+                                        Thank you, sir. Let's plan on that date then. Looking forward to this eSports event
+                                    </div>
+                                </div>
+                                <div class="inbox-timestamp">
+                                    10:11AM
+                                </div>
+                            </div>
+                            <div class="inbox-message">
+                                <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                <div class="inbox-message-content">
+                                    <div class="inbox-sender">
+                                        Ms. Venue Owner
+                                    </div>
+                                    <div class="inbox-message-txt">
+                                        I think that can work for me. You said you will be providing equipment? Thanks,
+                                    </div>
+                                </div>
+                                <div class="inbox-timestamp">
+                                    09:36AM
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="inbox-chats">
+                            <div class="inbox-chat-header">
+                                <span>Dad</span>
+                            </div>
+                            <div class="inbox-chat-content">
+                                <div class="inbox-message"> <!-- Can make this into <ul> later -->
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Nico
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Hello Dad, how are you doing?
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        11:22AM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Dad
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Hey Nico, I'm doing well! How are you?
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        12:13PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Nico
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Oh, that's great to hear. I just finished some coding and had a little free time.
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        12:22PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Dad
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            That sounds just like you. When are you going to visit us?
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        01:08PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Nico
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            I think I'll have time over the summer after classes end.
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        01:12PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Dad
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Well, that is good news. We look forward to seeing you.
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        01:14PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Nico
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            I am excited to be back with the family as well. It will be *fun*
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        01:18PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Dad
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Nice! Wait, what is that (*fun*) supposed to mean??
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        01:25PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Nico
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Just standard convention, ya know?
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        01:43PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Dad
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Guess I'll just have to take your word for it. Lol
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        01:53PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Nico
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Okay fine, you got me. It was a little hint of sarcasm. But I actually do look forward to visiting you guys.
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        02:21PM
+                                    </div>
+                                </div>
+                                <div class="inbox-message">
+                                    <img class="inbox-avatar" src="http://placekitten.com/150/150" alt="kitten" />
+                                    <div class="inbox-message-content">
+                                        <div class="inbox-sender">
+                                            Dad
+                                        </div>
+                                        <div class="inbox-message-txt">
+                                            Hahaha alright, I was just giving you a hard time anyways. See you then!
+                                        </div>
+                                    </div>
+                                    <div class="inbox-timestamp">
+                                        02:45PM
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </main>
                 <footer class="footer">
                     <p>Made by Nico, 2019</p>

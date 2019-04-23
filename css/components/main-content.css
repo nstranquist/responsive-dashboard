@@ -6,7 +6,7 @@
     grid-template-columns: repeat(auto-fit, minmax(48%,1fr));
     /*grid-template-rows: auto;*/
     grid-auto-rows: 25vh;
-    background-color: lightcoral;
+    background-color: whitesmoke;
     padding: 1rem;
 }
 .grid-item {

@@ -1,0 +1,44 @@
+.inbox-message {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* auto sets size equal to content,sets to far left and right of grid */
+    grid-template-rows: auto;
+}
+.inbox-chat-header {
+    background-color: silver;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+/* small screens */
+@media only screen and (max-width: 900px) {
+    .inbox-chats {
+        display: none;
+    }
+}
+
+/* large screens */
+@media only screen and (min-width: 901px) {
+    .inbox-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;  /* 33% / 66% screen width */
+        grid-template-rows: auto;
+    }
+    .inbox-chat-header {
+        background-color: silver;
+        height: 3rem;
+        justify-items: center;
+        align-items: center;
+    }
+    .inbox-contacts {
+        border-right: solid 1px silver;
+    }
+    .inbox-chats, .inbox-contacts {
+        height: 100vh;
+        overflow: scroll;
+    }
+    .inbox-message-active {
+        background-color: silver;
+    }
+}

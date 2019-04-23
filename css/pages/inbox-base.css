@@ -1,0 +1,23 @@
+
+.inbox-avatar {
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.inbox-message {
+    padding: 1rem;
+}
+.inbox-contacts .inbox-avatar {
+    width: 4rem;
+    height: 4rem;
+}
+.inbox-chats .inbox-avatar {
+    width: 3rem;
+    height: 3rem;
+}
+
+.inbox-sender {
+    font-weight: bold;
+}
+.inbox-contacts .inbox-message {
+    border-bottom: 1px solid silver;
+}
