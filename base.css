@@ -1,47 +1,11 @@
 @import "./css/boiler.css";
-@import "./css/nav.css";
-@import "./css/header.css";
-@import "./css/footer.css";
+@import "./css/layout.css";
+@import "./css/components/sidenav.css";
+@import "./css/components/header.css";
+@import "./css/components/footer.css";
 
 .app-container {
    width: 100%;
    height: 100vh;
    background-color: silver;
-}
-
-/* Primary Sections */
-.sidenav {
-   position: absolute;
-   left: 0;
-   width: 20%;
-   height: 100%;
-   background-color: lightgray;
-}
-.content-layout {
-   position: absolute;
-   left: 20%;
-   width: 80%;
-   height: 100vh;
-   background-color: silver;
-   display: flex;
-   flex-direction: column;
-}
-/* Content Sections */
-.header {
-   background-color: lightblue;
-   text-align: center;
-   padding: 1rem;
-}
-.content-grid {
-   display: grid;
-   grid-gap: 1rem;
-   grid-template-columns: repeat(4, 1fr);
-   grid-auto-rows: auto;
-   background-color: lightcoral;
-   flex: 1;
-   padding: 1rem;
-}
-.footer {
-   background-color: lightpink;
-   padding: 1rem;
 }
